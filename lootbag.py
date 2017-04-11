@@ -1,7 +1,8 @@
 class LootBag():
 
 	def add_to_bag(self, toy, child_name):
-		pass
+		with open('toylist', 'a') as toy_list:
+			toy_list
 
 	def list_toys_for_child(self, child_name):
 		if child_name == 'Vincent':
